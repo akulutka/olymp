@@ -1,4 +1,4 @@
-# 0lymp - Extremely efficient algorithms.
+# 0lymp: Extremely efficient algorithms
 ### There you can see >20 different algorithms I've been researching for last two years
 
 ## Level C
