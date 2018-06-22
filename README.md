@@ -1,12 +1,6 @@
 # 0lymp - Extremely efficient algorithms.
 ### There you can see >20 different algorithms I've been researching for last two years
 
-## Level D
-- DFS
-- Topological graph sort
-- GCD/LCM
-- Binary search
-
 ## Level C
 - RMQ
 - RSQ
@@ -24,3 +18,9 @@
 - Graph bridges detection
 - Graph articulation points detection
 - **BIG** geometry listing, contains 20 different functions and 4 structures
+
+## Level D
+- DFS
+- Topological graph sort
+- GCD/LCM
+- Binary search
