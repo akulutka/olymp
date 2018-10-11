@@ -2,7 +2,7 @@
 ### There you can see >20 different algorithms I've been researching for last two years
 
 ## Level A
-- Heavy-Light Decomposition *\*sigh\**
+- Heavy-Light tree decomposition *\*sigh\**
 
 ## Level B
 - Scanline X Segment tree
