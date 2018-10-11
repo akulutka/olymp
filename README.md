@@ -1,10 +1,17 @@
 # 0lymp: IT Olympic Algorithms
 ### There you can see >20 different algorithms I've been researching for last two years
 
+## Level A
+- Heavy-Light Decomposition *\*sigh\**
+
+## Level B
+- Scanline X Segment tree
+- Segment tree with massive operations: RSQ
+- LCA
+
 ## Level C
 - Segment tree: RMQ
 - Segment tree: RSQ
-- Segment tree with segmental operations: RSQ
 - DSU
 - Fenwick's tree
 - Fenwick's 3D tree
