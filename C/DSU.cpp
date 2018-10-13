@@ -8,7 +8,7 @@ vector<int> h;
 vector<int> p;
 int s;
 
-int	getRoot(int v)
+int getRoot(int v)
 {
 	if (p[v] == v)
 		return v;
