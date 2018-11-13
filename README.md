@@ -32,3 +32,5 @@
 - Topological graph sort
 - GCD/LCM
 - Binary search
+- Quick sort
+- Merge sort
