@@ -25,6 +25,7 @@
 - Dijktstra's algorithm
 - Graph bridges detection
 - Graph articulation points detection
+- Square root decomposition
 - **BIG** geometry listing, contains 20 different functions and 4 structures
 
 ## Level D
