@@ -26,6 +26,8 @@
 - Graph bridges detection
 - Graph articulation points detection
 - Square root decomposition
+- Polynomial hash for strings
+- Bracket sequence 
 - **BIG** geometry listing, contains 20 different functions and 4 structures
 
 ## Level D
