@@ -1,4 +1,4 @@
-# 0lymp: IT Olympic Algorithms
+# 0lymp: Competitive Programming Algorithms
 ### There you can see >20 different algorithms I've been researching for last two years
 
 ## Level A
