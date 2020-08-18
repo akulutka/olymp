@@ -1,5 +1,4 @@
-# 0lymp: Competitive Programming Algorithms
-### There you can see >20 different algorithms I've been researching for last three years
+# Olymp: Algorithms and Data Structures
 
 ## Level A
 - Heavy-Light tree decomposition *\*sigh\**
