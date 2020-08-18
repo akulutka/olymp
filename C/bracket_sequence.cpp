@@ -1,8 +1,6 @@
-bool next(string & S)
-{
+bool next(string & S) {
     int op = 0, cl = 0, i;
-    for (i = S.size() - 1; i >= 0; --i)
-    {
+    for (i = S.size() - 1; i >= 0; --i) {
         if (S[i] == '(')
             ++op;
         else
@@ -14,25 +12,21 @@ bool next(string & S)
         return false;
     S[i] = ')';
     ++i;
-    while (op > 0)
-    {
+    while (op > 0) {
         S[i] = '(';
         ++i;
         --op;
     }
-    while (i < S.size())
-    {
+    while (i < S.size()) {
         S[i] = ')';
         ++i;
     }
     return true;
 }
 
-bool prev(string & S)
-{
+bool prev(string & S) {
     int op = 0, cl = 0, i;
-    for (i = S.size() - 1; i >= 0; --i)
-    {
+    for (i = S.size() - 1; i >= 0; --i) {
         if (S[i] == '(')
             ++op;
         else
@@ -41,8 +35,7 @@ bool prev(string & S)
             break;
     }
     --i;
-    for (; i >= 0; --i)
-    {
+    for (; i >= 0; --i) {
         if (S[i] == '(')
             ++op;
         else
@@ -55,14 +48,12 @@ bool prev(string & S)
     S[i] = '(';
     --op;
     ++i;
-    while (op != cl)
-    {
+    while (op != cl) {
         S[i] = ')';
         --cl;
         ++i;
     }
-    while (i < S.size())
-    {
+    while (i < S.size()) {
         S[i] = '(';
         S[i + 1] = ')';
         i += 2;
@@ -70,11 +61,9 @@ bool prev(string & S)
     return true;
 }
 
-int amount_of_seq(int pairs)
-{
+int amount_of_seq(int pairs) {
     C[0] = 1;
-    for (int n = 1; n <= pairs; ++n)
-    {
+    for (int n = 1; n <= pairs; ++n) {
         C[n] = 0;
         for (int k = 0; k < n; ++k)
             C[n] += C[k] * C[n - 1 - k];

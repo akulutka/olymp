@@ -32,7 +32,7 @@ int dfs(int v, int p) {
     euler.push_back(v);
     w[v] = 1;
     for (size_t u = 0; u < gr[v].size(); ++u) {
-		int i = gr[v][u];
+        int i = gr[v][u];
         if (i != p) {
             w[v] += dfs(i, v);
             euler.push_back(v);
@@ -43,7 +43,7 @@ int dfs(int v, int p) {
     len[v] = 1;
     vert[v].push_back(v);
     for (size_t u = 0; u < gr[v].size(); ++u) {
-		int i = gr[v][u];
+        int i = gr[v][u];
         if (i != p && w[i] * 2 >= w[v]) {
             down[v] = down[i];
             up[down[v]] = p;
@@ -150,9 +150,9 @@ ll maxway(int u, int v) {
 }*/
 
 int main() {
-	ios_base::sync_with_stdio(false);
-	cin.tie(0);
-	cout.tie(0);
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
     cin >> n;
     for (int i = 0; i < n - 1; ++i) {
         int u, v;
@@ -160,7 +160,7 @@ int main() {
         gr[u - 1].push_back(v - 1);
         gr[v - 1].push_back(u - 1);
     }
-	euler.reserve(2 * n - 1);
+    euler.reserve(2 * n - 1);
     dfs(0, -1);
     d[n] = n + 1;
     l = 2 * n - 1;

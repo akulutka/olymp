@@ -7,6 +7,8 @@
 - Scanline X Segment tree
 - Segment tree with massive operations: RSQ
 - LCA
+- Red-Black Tree
+- Hash Map
 
 ## Level C
 - Segment tree: RMQ
